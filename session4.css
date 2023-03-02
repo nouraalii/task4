@@ -1,0 +1,94 @@
+body{
+  background-color:lightgray;
+}
+
+.logform .logoimage{
+    text-align: center;
+}
+
+.logform .formtext{
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    width: 280px;
+    height: 320px;
+    padding: 30px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.logform .formtext .ptext{
+    font-size: 17px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logform .formtext .textt{
+    border-style: solid ;
+    border-color: rgb(223, 220, 220);
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left:-10px;
+    width: 280px;
+    color: lightgray;
+
+}
+
+.logform .formtext .sub{
+    padding: 10px 125px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border-color:rgb(223, 220, 220);
+    color:white;
+    margin-left:-11px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logform .formtext .ahlink{
+    color:  #1877f2;;
+}
+
+.logform .formtext .orrr {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #606770;
+    position: relative;
+}
+
+.logform .formtext .orrr span {
+    position: relative;
+    z-index: 1;
+    background-color: #f0f2f5;
+    padding: 0 10px;
+}
+
+.logform .formtext .orrr::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #dddfe2;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.logform .formtext .btn .buttoncc{
+ background-color: #42b72a;
+  border: none;
+  color: white;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
